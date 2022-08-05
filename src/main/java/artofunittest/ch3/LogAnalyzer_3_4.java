@@ -9,6 +9,12 @@ public class LogAnalyzer_3_4 {
     }
 
     public boolean isValidLogFileName(String fileName) {
-        return manager.isValid(fileName);
+        boolean result = true;
+        try {
+            manager.isValid(fileName);
+        } catch (RuntimeException re) {
+            result = false;
+        }
+        return result;
     }
 }
