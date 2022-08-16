@@ -9,7 +9,7 @@ public class LogAnalyzer_3_6Test {
     public void isValidFileName_supportedExtension_returnsTrue() {
         // set up the stub to use, make sure it returns true.
         IExtensionManager myFakeManager = new FakeExtensionManager3_6();
-        ExtensionManagerFactory3_6.setManager(myFakeManager);
+        ExtensionManagerFactory_3_6.setManager(myFakeManager);
         LogAnalyzer_3_6 log = new LogAnalyzer_3_6();
 
         // assert logic assuming extension is supported.

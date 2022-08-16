@@ -5,7 +5,7 @@ public class LogAnalyzer_3_6 {
     private IExtensionManager manager;
 
     public LogAnalyzer_3_6() {
-        manager = ExtensionManagerFactory3_6.create();
+        manager = ExtensionManagerFactory_3_6.create();
     }
 
     public boolean isValidLogFileName(String fileName) {

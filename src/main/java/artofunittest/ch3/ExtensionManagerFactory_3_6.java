@@ -1,6 +1,6 @@
 package artofunittest.ch3;
 
-public class ExtensionManagerFactory3_6 {
+public class ExtensionManagerFactory_3_6 {
 
     private static IExtensionManager customerManager = null;
     public static IExtensionManager create() {
